@@ -2,7 +2,7 @@ import React, { useRef, useMemo } from 'react';
 import { Canvas, useFrame, useThree } from '@react-three/fiber';
 import * as THREE from 'three';
 
-// 셰이더 소스코드 (ReactBits의 Dark Veil 로직)
+// 셰이더 소스코드 (ReactBits의 Dark Veil 로직) 
 const CustomShaderMaterial = {
   vertexShader: `
     varying vec2 vUv;
